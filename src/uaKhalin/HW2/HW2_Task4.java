@@ -1,4 +1,4 @@
-package uaKhalin;
+package uaKhalin.HW2;
 
 import java.util.Scanner;
 

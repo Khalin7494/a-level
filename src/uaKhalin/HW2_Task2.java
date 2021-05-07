@@ -1,8 +1,8 @@
-package SecondLecture;
+package uaKhalin;
 
 import java.util.Scanner;
 
-public class Lecture2_Task2 {
+public class HW2_Task2 {
     public static void main(String[] args) {
         Scanner console = new Scanner(System.in);
 

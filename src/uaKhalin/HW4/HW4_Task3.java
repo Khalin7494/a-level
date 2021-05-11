@@ -9,11 +9,11 @@ public class HW4_Task3 {
         for (int i = 0; i < randomArray.length; i++) {
             randomArray[i] = (int) (Math.random() * 10) + 1;
         }
-        //System.out.println(Arrays.toString(randomArray));
+        System.out.println("Массив до изменений : " + Arrays.toString(randomArray));
         for (int i = 0; i < randomArray.length; i++) {
             if (randomArray[i] % 2 == 0)
                 randomArray[i] = 0;
         }
-        //System.out.println(Arrays.toString(randomArray));
+        System.out.println("Массив после изменений : " + Arrays.toString(randomArray));
     }
 }

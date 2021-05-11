@@ -3,7 +3,7 @@ package uaKhalin.HW4;
 import java.lang.reflect.Array;
 import java.util.Arrays;
 
-public class HW4_Task3 {
+public class HW4_Task4 {
     public static void main(String[] args) {
         int[] randomArray = new int[2000];
         for (int i = 0; i < randomArray.length; i++) {

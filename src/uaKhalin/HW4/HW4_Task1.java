@@ -8,9 +8,9 @@ public class HW4_Task1 {
         }
         double count = 0.0;
         double multiplication = 1.0;
-        for (int i = 0; i < randomArray.length; i++) {
-            count += randomArray[i];
-            multiplication *= randomArray[i];
+        for (int j : randomArray) {
+            count += j;
+            multiplication *= j;
         }
         double average = count / randomArray.length;
         double geometric = Math.pow(multiplication, 1.0 / randomArray.length);

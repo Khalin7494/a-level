@@ -2,7 +2,7 @@ package ua.Khalin.HW1;
 
 import java.util.Date;
 
-public class HW1_Task2 {
+public class Task2 {
     public static void main(String[] args) {
         String name = "Евгений ";
         String surname = "Халин, ";

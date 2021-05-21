@@ -1,0 +1,11 @@
+# Project exclude paths
+/out/
+
+# IntelliJ
+out/
+
+# mpeltonen/sbt-idea plugin
+.idea_modules/
+.idea
+/.idea/
+*.iml

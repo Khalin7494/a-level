@@ -12,7 +12,7 @@ public class Task2 {
         Task2 pay = new Task2();
         for (Student student : people) {
             System.out.println("Salary is - " + student.getScholarship());
-            //Student.getScholarship(pay);   ??????
+
         }
 
     }

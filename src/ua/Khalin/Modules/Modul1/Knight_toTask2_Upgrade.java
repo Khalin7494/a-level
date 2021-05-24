@@ -1,31 +1,18 @@
-/*
 package ua.Khalin.Modules.Modul1;
 
 import java.util.Scanner;
 
-public class Knight {
-    String firstLetter;
-    String moveLetter;
-    int x1;
-    int firstPoint;
-    int movePoint;
+public class Knight_toTask2_Upgrade {
+    String letter;
+    int a;
 
-    */
-/*Knight(String firstLetter, String moveLetter, int firstPoint, int movePoint) {
-        this.firstLetter = firstLetter;
-        this.moveLetter = moveLetter;
-        this.firstPoint = firstPoint;
-        this.movePoint = movePoint;
-    }*//*
-
-
-    Knight(int x1, int firstPoint) {
-        this.x1 = getLetter(firstLetter);
-        this.firstPoint = getNumber(firstPoint);
+    Knight_toTask2_Upgrade(String letter, int a) {
+        this.letter = letter;
+        this.a = a;
     }
 
-    private static int letterConvert(String firstLetter) {
-        switch (firstLetter) {
+    public static int letterConvert(String setLetter) {
+        switch (setLetter) {
             case "a": {
                 return 1;
             }
@@ -55,19 +42,13 @@ public class Knight {
         }
     }
 
-    public static int getLetter(String letter) {
-        int x = letterConvert(letter);
-        if (x < 0 || x > 8) {
+    public static int getNumber(int a) {
+        if (a < 0 || a > 8) {
             System.out.println("Вы ввели некорректное значение");
         }
-        return x;
+        return a;
     }
-    public static int getNumber(int y) {
-        if (y < 0 || y > 8) {
-            System.out.println("Вы ввели некорректное значение");
-        }
-        return y;
-    }
+
     public static boolean rightMove(int x1, int y1, int x2, int y2) {
         if ((x2 == x1 + 2) && (y2 == y1 + 1)) {
             return true;
@@ -83,11 +64,7 @@ public class Knight {
             return true;
         } else if ((x2 == x1 - 1) && (y2 == y1 + 2)) {
             return true;
-        } else if ((x2 == x1 - 1) && (y2 == y1 - 2)) {
-            return true;
-        }
-        else return false;
+        } else return (x2 == x1 - 1) && (y2 == y1 - 2);
     }
 
 }
-*/

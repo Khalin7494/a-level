@@ -10,8 +10,7 @@ public class Coords {
         this.text = text;
     }
 
-    Coords() {
-    }
+    Coords() { }
 
     public static String[][] chessBoard() {
         String[][] chessBoard = new String[8][8];

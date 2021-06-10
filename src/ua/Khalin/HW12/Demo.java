@@ -1,5 +1,11 @@
 package ua.Khalin.HW12;
 
+/*Создать текстовый файл в корне диска D с именем test.txt, напечатать внутри
+несколько строк текста. Скопировать код и убедиться, что он правильно работает.
+Спровоцировать возникновение FileNotFoundEcxeption
+2. Удалить t hrows I OException и заменить его на try/catch/finally. Закоммитить.
+3. Отрефакторить код с использование try-with-recourses. Еще раз закоммитить.*/
+
 import java.io.*;
 
 public class Demo {

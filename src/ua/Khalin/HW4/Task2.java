@@ -1,13 +1,15 @@
 package ua.Khalin.HW4;
 
+//Заполнить одномерный массив случайными целочисленными значениями. Проверить сколько простых чисел присутствует в массиве. Размер массива 1000 элементов.
+
+
 import java.util.Arrays;
 
 public class Task2 {
     public static void main(String[] args) {
-        int[] randomArray = new int[10];
-        //int count = 0;
-        for (int i = 0; i < randomArray.length; i++) {
-            randomArray[i] = (int) (Math.random() * 10) + 1;
+        int[] randomArray = new int[1000];
+            for (int i = 0; i < randomArray.length; i++) {
+            randomArray[i] = (int) (Math.random() * 100) + 1;
         }
         System.out.println(Arrays.toString(randomArray));
         for (int i = 0; i < randomArray.length; i++) {

@@ -1,5 +1,14 @@
 package ua.Khalin.HW12;
 
+/*Написать свой собственный код (в отдельном файле), который будет приводить к
+возникновению следующих исключений:
+● ClassCastException
+● NullPointerException
+● NumberFormatException (подсказка – преобразование строки в число)
+● ArrayIndexOutOfBoundsException
+Подумать и написать в комментарии, какие из этих исключений нужно обрабатывать в
+try/catch блоке.*/
+
 public class ExceptionsTest {
     public static void main(String[] args) {
         //ClassCastException

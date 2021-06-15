@@ -1,5 +1,9 @@
 package ua.Khalin.HW2;
 
+//Создать метод и вызвать его в main():
+//Заданы плоские декартовы координаты треугольника. Найти площадь треугольника.
+
+
 import java.util.Scanner;
 
 public class Task2 {

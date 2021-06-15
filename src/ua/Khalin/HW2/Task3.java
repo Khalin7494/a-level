@@ -1,5 +1,8 @@
 package ua.Khalin.HW2;
 
+//Создать метод и вызвать его в main(): метод будет сообщать, является ли целое число, переданное в метод, чётным или нет. 
+
+
 import java.util.Scanner;
 
 public class Task3 {
